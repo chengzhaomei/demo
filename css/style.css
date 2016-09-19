@@ -1,0 +1,310 @@
+﻿html, body
+{
+    width: 100%;
+    height: 100%;
+}
+.section .mt20
+{
+    margin: 0;
+}
+section, article
+{
+    width: 100%;
+    min-width: 1350px;
+    height: 100%;
+    position: relative;
+}
+
+article .txthide
+{
+    text-indent: -999999em;
+    overflow: hidden;
+    line-height: 0;
+    font-size: 0px;
+    display: none;
+}
+.sectionTitle
+{
+    width: 100%;
+    height: 55%;
+    margin: 0 auto;
+    padding-top: 0px;
+    text-align: center;
+    position: absolute;
+    top: 7%;
+    left: 0;
+    opacity: 0;
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    z-index: 8;
+}
+.fadeInDown .sectionTitle
+{
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+.sectionWrapper
+{
+    width: 100%;
+    min-width: 1350px;
+    margin: 0 auto;
+    overflow: hidden;
+    _width: expression((document.documentElement.clientWidth||document.body.clientWidth)<1000?"1000px":"100%");
+}
+
+.sectionBtndiv
+{
+    width: 100%;
+    position: absolute;
+    bottom: auto;
+    left: 0px;
+    text-align: center;
+    z-index: 10;
+}
+.sectionBtnsub
+{
+    width: 13%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    max-width: 195px;
+    _width: expression((document.documentElement.clientWidth||document.body.clientWidth)>195?"195px":"13%");
+}
+.sectionBtnsub img
+{
+    width: 100%;
+}
+.sectionbg
+{
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    _width: expression((document.documentElement.clientWidth||document.body.clientWidth)>1920?"1920px":"100%");
+}
+.section1, .section2, .section3, .section4, .sectionbg5
+{
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.section1img img
+{
+    width: 100%;
+}
+.secitonbottombg
+{
+    width: 100%;
+    height: 160px;
+    position: absolute;
+    padding:0;
+    margin:0;
+    left: 0px;
+    z-index: 1;
+}
+.section1 .secitonbottombg
+{
+    width: 100%;
+    height: 100%;
+    min-width: 1300px;
+    min-height:650px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.section2 .secitonbottombg
+{
+    width: 100%;
+    height: 100%;
+    min-width: 1300px;
+    min-height:650px;
+    position: absolute;
+    top: 0px;
+    background-color: #e4e3df;
+    left: 0;
+}
+
+.section3 .secitonbottombg
+{
+    width: 100%;
+    height: 100%;
+    min-width: 1300px;
+    min-height:650px;
+    position: absolute;
+    background-color: #e4e3df;  
+}
+
+.section4 .secitonbottombg
+{
+    width: 100%;
+    height: 100%;
+    min-width: 1300px;
+    min-height:650px;
+    position: absolute;
+    background-color: #e4e3df;
+    left: 0;
+}
+.section5 .secitonbottombg
+{
+    width: 100%;
+    height: 100%;
+    min-width: 1300px;
+    min-height:650px;
+    position: absolute;
+    top:0px;
+    background-color: #e4e3df;
+    left: 0;
+}
+.section6 .secitonbottombg
+{
+    width: 100%;
+    height: 100%;
+    min-width: 1300px;
+    min-height:650px;
+    position: absolute;
+    background-color: #e4e3df;
+    left: 0;
+}
+.section7 .secitonbottombg
+{
+    width: 100%;
+    height: 100%;
+    min-width: 1300px;
+    min-height:650px;
+    position: absolute;
+    bottom: 0;
+}
+
+.section1 .secitonbottombg img
+{
+    width: 100%;
+}
+.section2 .secitonbottombg img
+{
+    height: auto;
+    width: 100%;
+}
+.section3 .secitonbottombg img
+{
+    height: auto;
+    width: 100%;
+}
+.section4 .secitonbottombg img
+{
+    height: auto;
+    width: 100%;
+}
+.section5 .secitonbottombg img
+{
+    height: auto;
+    width: 100%;
+}
+.section6 .secitonbottombg img
+{
+    height: auto;
+    width: 100%;
+}
+.section7 .secitonbottombg img
+{
+    height: auto;
+}
+.section1 .sectionTitle
+{
+    text-align: center;
+    opacity: 1;
+    top: 28%;
+    _top: 26%;
+    left: 20%;
+    z-index: 30;
+}
+.section1 .sectionTitle h2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 52%;
+    width: 100%;
+    text-align: center;
+}
+.section1 .sectionTitle h2 img
+{
+    height: 100%;
+    width: auto;
+}
+.section1 .dload
+{
+    position: absolute;
+    top: 60%;
+    left: 0;
+    height: 40%;
+    width: 100%;
+    text-align: center;
+}
+.section1 .iph_dload
+{
+    position: absolute;
+    top: 60%;
+    left: 0;
+    height: 18%;
+    width: 100%;
+    text-align: center;
+}
+.section1 .iph_dload img, .section1 .andr_dload img
+{
+    height: 100%;
+    width: auto;
+}
+.section1 .andr_dload
+{
+    position: absolute;
+    top: 85%;
+    left: 0;
+    height: 18%;
+    width: 100%;
+    text-align: center;
+}
+.section6 .secitonbottombg a
+{
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    height: 15%;
+    width: 100%;
+    z-index: 99;
+}
+.section6 .secitonbottombg a img
+{
+    height: 100%;
+    width: auto;
+}
+/*回到顶部*/
+.arrow_down
+{
+    position: absolute;
+    bottom: 3%;
+    width: 30px;
+    left: 49%;
+    z-index: 110;
+}
+#arrow_up
+{
+    display: none;
+    position: fixed;
+    bottom: 130px;
+    right: 50px;
+    width: 90px;
+    height: 90px;
+    z-index: 120;
+    _position: absolute;
+    _right: expression(eval(document.documentElement.scrollright+1000));
+    _top: expression(eval(document.documentElement.scrollTop+700));
+}

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/base.css">
+    <link rel="stylesheet" type="text/css" href="./css/indexstyle.css">
+    <script src='./js/jquery-1.7.2.min.js'></script>
+    <script src='./js/all.js'></script>
+    <style type="text/css">
+        article, aside, dialog, footer, header, section, footer, nav, figure, menu
+        {
+            display: block;
+        }
+    </style>
+    <script>
+        (function () {
+            if (!
+                        /*@cc_on!@*/
+                            0) return;
+            var e = "abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(', ');
+            var i = e.length;
+            while (i--) {
+                document.createElement(e[i]);
+            }
+        })()
+    </script>
+    <script type="text/javascript">
+        //注册键盘事件
+        document.onkeydown = function (e) {
+            //捕捉回车事件
+            var ev = (typeof event != 'undefined') ? window.event : e;
+            if (ev.keyCode == 13 && document.activeElement.id == "msg") {
+                return false; //禁用回车事件
+            }
+        }
+    </script>
+
+
+</head>
+<body>
+<div id="indextitle">
+    <img style="width: 100%; height: 60px;" src="image/indexitembg.jpg" />
+    <div id="menu1">
+        <ul>
+            <li>
+                <a href="index.aspx">
+                    <b style="font-size: 9px">HOME</b>
+                    <br />
+                    <label> 网站首页</label>
+                </a>
+            </li>
+            <li><a href="Introduce.aspx?firid=3"><b style="font-size: 9px">ABOUT US</b> <br /><label> 关于我们</label></a></li>
+            <li><a href="NewsList.aspx?firid=9"><b style="font-size: 9px">INDUSTRY</b> <br /><label> 产业动态</label></a></li>
+            <li><a href="NewsList.aspx?firid=11"><b style="font-size: 9px">NEWS</b> <br /><label> 公司新闻</label></a></li>
+            <li><a href="Business.aspx"><b style="font-size: 9px">BUSINESS</b> <br /><label> 业务平台</label></a></li>
+            <li><a href="Cooperation.aspx"><b style="font-size: 9px">COOPERATION</b> <br /><label> 商务合作</label></a></li>
+            <li><a href="job.aspx"><b style="font-size: 9px">RECRUITMENT</b> <br /><label> 人才招聘</label></a></li>
+            <li><a href="Contract.aspx"><b style="font-size: 9px">CONTACT US</b> <br /><label> 联系我们</label></a></li>
+        </ul>
+        <div class="cls">
+        </div>
+    </div>
+</div>
+<div id="sectionchoose">
+    <a href="index.aspx#section1">
+        <img id="c1" src="image/indexactive.png" /></a> <a href="index.aspx#section2">
+    <img id="c2" src="image/indexout.png" /></a> <a href="index.aspx#section3">
+    <img id="c3" src="image/indexout.png" /></a> <a href="index.aspx#section4">
+    <img id="c4" src="image/indexout.png" /></a> <a href="index.aspx#section5">
+    <img id="c5" src="image/indexout.png" /></a>
+</div>
+<!-- container -->
+<section id="section1" class="section section1">
+    <article class="sectionWrapper section1Wrapper">
+        <div class="secitonbottombg">
+            <div style=" width:100%; margin-left:0px; height:100px;">
+                <img id="sectiontopimg" src="./image/20150727174718cfaacd27-dfb8-4520-b81b-5827d6c9091a.png" />
+                <div class="sectiontopright">
+                    <div id="dropdown">
+                        <p id="droptext">相关平台</p>
+                        <ul>
+                            <li><a href="http://www.592vip.com/web/main/index" target="_blank">轻奢点评</a></li>
+                            <li><a href="NTBilingual.aspx">南通双语</a></li>
+                            <li><a href="LightLuxury.aspx">轻奢沙龙</a></li>
+                            <li><a href="AllUse.htm" >善摩师</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sectiontopright">
+
+                </div>
+                <div class="sectiontopright">
+                    <a href="login.aspx">登录</a>
+                </div>
+            </div>
+            <div class="section1img">
+                <div id="indexitem1">
+                    <img style=" width:100%;height: 60px;" src="image/indexitembg.jpg" />
+                    <div id="menu2">
+                        <ul>
+                            <li>
+                                <a href="index.aspx">
+                                    <b style="font-size: 9px">HOME</b>
+                                    <br /><label> 网站首页</label>
+                                </a></li>
+                            <li>
+                                <a href="Introduce.aspx?firid=3">
+                                    <b style="font-size: 9px">ABOUT US</b>
+                                    <br />
+                                    <label> 关于我们</label></a>
+                            </li>
+                            <li>
+                                <a href="NewsList.aspx?firid=9">
+                                    <b style="font-size: 9px">INDUSTRY</b>
+                                    <br />
+                                    <label> 产业动态</label></a></li>
+                            <li>
+                                <a href="NewsList.aspx?firid=11">
+                                <b style="font-size: 9px">NEWS</b>
+                                <br />
+                                <label> 公司新闻</label></a>
+                            </li>
+                            <li>
+                                <a href="Business.aspx"><b style="font-size: 9px">BUSINESS</b> <br /><label> 业务平台</label></a></li><li><a href="Cooperation.aspx"><b style="font-size: 9px">COOPERATION</b> <br /><label> 商务合作</label></a></li><li><a href="job.aspx"><b style="font-size: 9px">RECRUITMENT</b> <br /><label> 人才招聘</label></a></li><li><a href="Contract.aspx"><b style="font-size: 9px">CONTACT US</b> <br /><label> 联系我们</label></a></li>
+                        </ul>
+
+                        <div class="cls">
+                        </div>
+                    </div>
+                </div>
+                <img src="./image/20160415142839f83d8381-4133-4200-9944-0601e059b824.jpg" style=" margin-top:60px;" class="imgpng"/>
+            </div>
+        </div>
+
+        <div class="fir-btm">
+            <div><a href="http://www.592vip.com/web/main/index"> <img src="./image/201604151432254b4c962d-6cbc-47dd-bb81-bd8ef982f8b3.png" alt="Banner1.1"></a></div>
+            <div><a href="http://www.chinajszb.com/NTBilingual.aspx"> <img src="./image/20160415143235a86b4618-b035-4bce-b985-0984dbabf9a2.png" alt="Banner1.2"></a></div>
+            <div><a href="http://www.chinajszb.com/LightLuxury.aspx"> <img src="./image/2016041514324597d1b09d-679a-4320-bcc4-98561cedd11f.png" alt="Banner1.3"></a></div>
+            <div><a href="http://www.chinajszb.com/Alluse.htm"> <img src="./image/2016012915313581f1146f-199c-4a6e-b1d9-2a52e87db638.png" alt="Banner1.4"></a></div>
+
+        </div>
+        <div class="arrow_down"><a href="index.aspx#section2">
+            <img src="image/arrow_down.png" width="42px" height="24px" alt="arrow_down"></a>
+        </div>
+    </article>
+</section>
+
+<section id="section3" class="section section3">
+    <article class="sectionWrapper section3Wrapper">
+        <div class="secitonbottombg">
+            <img src="./image/201604151505482d616671-1f3d-4eb7-9a2d-e6ee0596e2e1.jpg" />
+            <input class="six-morebtn" type="image" src="image/six-morebtn.jpg"  onclick="location.href='http://www.592vip.com/web/main/index'" />
+        </div>
+        <div class="arrow_down">
+            <a href="index.aspx#section4">
+                <img src="image/arrow_down.png" width="42px" height="24px" alt="arrow_down">
+            </a>
+        </div>
+    </article>
+</section>
+<section id="section4" class="section section4">
+    <article class="sectionWrapper section4Wrapper">
+        <div class="secitonbottombg">
+            <img src="./image/201604151506172a7d62b7-4a08-4d64-9dc6-e8ab4e3b9d23.jpg" />
+            <input class="four-morebtn" type="image" src="image/four-morebtn.png" onclick="location.href='http://www.chinajszb.com/NTBilingual.aspx'" />
+        </div>
+        <div class="arrow_down">
+            <a href="index.aspx#section5">
+            <img src="image/arrow_down.png" width="42px" height="24px" alt="arrow_down">
+            </a>
+        </div>
+    </article>
+</section>
+<section id="section5" class="section section5">
+    <article class="sectionWrapper section5Wrapper fadeInDown">
+        <div class="secitonbottombg"><img src="./image/20160415150715a60a8ce2-e848-4ea0-a517-6be17eb23bb3.jpg" /><input class="four-morebtn" type="image" src="image/sec-morebtn.png" onclick="location.href='http://www.chinajszb.com/LightLuxury.aspx'" /></div>
+        <div class="arrow_down"><a href="index.aspx#section7"> <img src="image/arrow_down.png" width="42px" height="24px" alt="arrow_down"></a></div>
+    </article>
+</section>
+<section id="section7" class="section section7">
+    <article class="sectionWrapper section7Wrapper">
+        <div class="secitonbottombg"><img class="six-bg" src="./image/20160129152454cd665742-271a-43af-b4d2-233e16b4e97c.jpg" /><input class="sev-morebtn" type="image" src="image/sev-morebtn.png" onclick="location.href='http://www.chinajszb.com/Alluse.htm'" />
+            <div class="bottomlogo"><img src="./image/201507271850268418e430-ce68-478a-afad-3c35440923dc.png" /></div>
+            <div class="bottomlink">
+                <div>
+                    <a class="bottomtitle" href="Introduce.aspx?firid=3">关于我们</a><a class="bottomtitle" href="NewsList.aspx?firid=9">产业动态</a><a class="bottomtitle" href="NewsList.aspx?firid=11">公司新闻</a>
+                </div>
+                <div>
+                    <a class="bottomtitle" href="Cooperation.aspx">商务合作</a><a class="bottomtitle" href="job.aspx">人才招聘</a><a class="bottomtitle" href="Contract.aspx">联系我们</a>
+                </div>
+                <div id="bottombs">
+                    <a class="bottomtitle" href="Business.aspx">业务平台</a>
+                    <img class="bottomimg" s src="image/indexbtmimg.png" />
+                    <a href="http://www.592vip.com/web/main/index" target="_blank"><img class="indexbimg" src="image/indexb5.png" /></a>
+                    <a href="NTBilingual.aspx" target="_blank"><img  class="indexbimg"src="image/indexb3.png" /></a>
+                    <a href="LightLuxury.aspx" ><img  class="indexbimg"src="image/indexb1.png" /></a>
+                    <a href="AllUse.htm" target="_blank"><img  class="indexbimg"src="image/indexb4.png" /></a>
+                </div>
+            </div>
+            <div class="bottomcopy">Copyright  2015 江苏中报网络文化科技产业发展有限公司. All Rights Reserved.
+                <a href="http://www.miitbeian.gov.cn/"  style="text-decoration:none;
+color:#999;"  target="_blank" > 苏ICP备15038685号-1</a></div>
+        </div>
+    </article>
+</section>
+<!--回到顶部-->
+<div id="arrow_up" style="display: none;">
+    <a href="index.aspx#section1">
+        <img src="image/slide_up.png" width="60px" height="60px" alt="回到顶部"></a></div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        jQuery.jqsxfg51nav = function (jqsxfg51navhover) {
+            $(jqsxfg51navhover).prepend("<span></span>");
+
+            $(jqsxfg51navhover).each(function () {
+                var linkText = $(this).find("label").html();
+                var linkText2 = $(this).find("b").html();
+                $(this).find("span").show().html("<lable style='font-size: 8px;font-family:Arial;'>" + linkText2 + "</label><br /><b style='font-size: 14px;font-family:微软雅黑;'>" + linkText + "</b>");
+                $(this).find("a").show().html("<b style='font-size: 14px;font-family:微软雅黑;'>" + linkText + "</b><br /><lable style='font-size: 8px;font-family:Arial;'>" + linkText2 + "</label>");
+            });
+
+            $(jqsxfg51navhover).hover(function () {
+                $(this).find("span").stop().animate({
+                    marginTop: "-60"
+                }, 250);
+            }, function () {
+                $(this).find("span").stop().animate({
+                    marginTop: "0"
+                }, 250);
+            });
+        };
+        //下面是调用方法，一个页面也可以调用很多次
+        $.jqsxfg51nav("#menu1 li");
+        $.jqsxfg51nav("#menu2 li");
+    });</script>
+<script src="js/sectionscroll.js" tppabs="http://www.chinajszb.com/js/sectionscroll.js" type="text/javascript"></script>
+<script src="js/jquery.mousewheel.min.js" tppabs="http://www.chinajszb.com/js/jquery.mousewheel.min.js" type="text/javascript"></script>
+
+</body>
+</html>

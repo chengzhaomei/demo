@@ -1,0 +1,555 @@
+/*html5*/
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+
+html
+{
+    overflow: hidden;
+}
+#indextitle
+{
+    display: none;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    max-width:1920px;
+    min-width:1300px;
+    z-index: 100;
+    _position: absolute;
+    _left: 0;
+    _top: expression(eval(document.documentElement.scrollTop+100));
+    opacity: 0.7;
+    color: #333;
+    line-height: 1.5;
+}
+#indexitem1
+{
+    height: 60px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    max-width:1920px;
+    min-width:1300px;
+    z-index: 100;
+    _position: absolute;
+    _left: 0;
+    _top: expression(eval(document.documentElement.scrollTop+100));
+    color: #333;
+    line-height: 1.5;
+}
+#sectiontopimg
+{
+    width: 30%;
+    margin-left: 23%;
+    margin-right: 5%;
+    display: block;
+    float: left;
+}
+.sectiontopright
+{
+    float: left;
+    padding-top: 50px;
+    font-family:微软雅黑;
+    font-size:12px;
+    line-height:25px;
+}
+.sectiontopright a
+{
+    margin-left:25px;
+    color:#000;
+}
+.sectiontopselect
+{
+    color: #333;
+    border: 1px solid #aaa;
+    width: 100px;
+    height: 26px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.sectiontopselect2
+{
+    color: #333;
+    border: 0;
+    width: 45px;
+    height: 26px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.indexsearch
+{
+    float: left;
+    width: 15%;
+    margin-top: 16px;
+    margin-left: 25px;
+}
+.search
+{
+    position: absolute;
+    right: 23%;
+    top: 25%;
+    width: 15%;
+}
+#searchtext
+{
+    width: 75%;
+    margin-left: 4px;
+    margin-top: 2px;
+    height: 23px;
+    border: 0;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ababab;
+}
+#searchimg
+{
+    width: 10%;
+    margin-left: 10px;
+}
+.itemimg
+{
+    width: 100%;
+    max-width:1920px;
+    min-width:1300px;
+    position: absolute;
+    text-align: center;
+    top: 820px;
+    z-index: 80;
+}
+.itemimg img
+{
+    width: 4%;
+    margin-left: 1%;
+}
+.bottomlink
+{
+    width: 47%;
+    margin-left: 40%;
+    position: absolute;
+    bottom: 60px;
+    z-index: 1000;
+}
+.bottomlink div
+{
+    width: 14%;
+    float: left;
+    text-align: left;
+    margin-left: 24px;
+    margin-top: 16px;
+}
+.bottomtitle
+{
+    display: block;
+    margin-top:20px;
+    color: #d0d0d0;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 微软雅黑 Light;
+    cursor: pointer;
+}
+#bottombs
+{
+    float:left;
+    margin-top:0px;
+    width:58%;
+    line-height:30px;
+    color: #d0d0d0;
+    font-weight: bold;
+    text-align:center;
+    font-size: 16px;
+    font-family: 微软雅黑 Light;
+    cursor: pointer;
+}
+.bottomimg
+{
+    width:90%;
+    margin-left:3%;
+}
+.indexbimg {
+    width: 15%;
+    margin-left: 3%;
+    margin-top: 10px;
+}
+.sec-morebtn
+{
+    position: absolute;
+    top: 39%;
+    border: 0;
+    left: 68%;
+}
+.thr-morebtn
+{
+    position: absolute;
+    top: 315px;
+    border: 0;
+    left: 650px;
+}
+.four-morebtn
+{
+    position: absolute;
+    top: 39%;
+    border: 0;
+    left: 68%;
+}
+.fiv-morebtn /*首页更改*/
+.fir-btm
+{
+    position:absolute;
+    width:100%;
+    min-width:1380px;
+    bottom:0;
+    padding-left:21.1%;
+    z-index:10;
+    background-color:#ddd;
+}
+.indexbtmbg
+{
+    width:100%;
+    position:absolute;
+    bottom:0;
+    z-index:1;
+}
+.fir-btm div
+{
+    width:14.5%;
+    float:left;
+}
+.fir-btm img{
+    width:100%;
+}
+.fir-btm div:hover
+{
+    background-color:#d0d0d0;
+
+}
+.six-bg
+{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    z-index:1;
+}
+{
+    position: absolute;
+    top: 40%;
+    border: 0;
+    left: 30%;
+}
+.six-morebtn
+{
+    position: absolute;
+    top: 38%;
+    border: 0;
+    left: 68%;
+}
+.sev-morebtn
+{
+    position: absolute;
+    border: 0;
+    left: 30%;
+    z-index: 100;
+    bottom: 74%;
+}
+#sectionchoose
+{
+    position: fixed;
+    top: 50%;
+    right: 5%;
+    width: 20px;
+    z-index: 100;
+    _position: absolute;
+    _left: 0;
+    _top: expression(eval(document.documentElement.scrollTop+100));
+    opacity: 0.7;
+}
+#sectionchoose a
+{
+    display:block;
+    margin-top:5px;
+}
+
+#dropdown
+{
+    width: 130px;
+    position: relative;
+    z-index: 1000;
+}
+#dropdown p
+{
+    width: 80px;
+    height: 24px;
+    line-height: 24px;
+    padding-right: 12px;
+    background: #fff url('../image/arrow.png') no-repeat 82px 10px;
+    color: #333;
+    font-family: 微软雅黑;
+    font-size: 12px;
+    text-align: right;
+    cursor: pointer;
+}
+#dropdown ul
+{
+    width: 88px;
+    background: #fff;
+    margin-top: 2px;
+    border: 1px solid lightgrey;
+    font-family: 微软雅黑;
+    position: absolute;
+    display: none;
+    font-size: 12px;
+    text-align: right;
+}
+#dropdown ul li
+{
+    height: 24px;
+    line-height: 24px;
+}
+#dropdown ul li a
+{
+    display: block;
+    height: 24px;
+    color: #333;
+    text-decoration: none;
+    padding-right: 12px;
+}
+#dropdown ul li a:hover
+{
+    background: #c6dbfc;
+    color: #369;
+}
+
+#dropdown2
+{
+    width: 60px;
+    position: relative;
+    z-index: 1000;
+}
+#dropdown2 p
+{
+    width: 30px;
+    height: 24px;
+    line-height: 24px;
+    padding-right: 18px;
+    background: #fff url('../image/arrow.png') no-repeat 32px 10px;
+    color: #333;
+    font-family: 微软雅黑;
+    font-size: 12px;
+    text-align: right;
+    cursor: pointer;
+}
+#dropdown2 ul
+{
+    width: 40px;
+    background: #fff;
+    margin-top: 2px;
+    border: 1px solid lightgrey;
+    font-family: 微软雅黑;
+    position: absolute;
+    display: none;
+    font-size: 12px;
+    text-align: right;
+}
+#dropdown2 ul li
+{
+    height: 24px;
+    line-height: 24px;
+}
+#dropdown2 ul li a
+{
+    display: block;
+    height: 24px;
+    color: #333;
+    text-decoration: none;
+    padding-right: 10px;
+}
+#dropdown2 ul li a:hover
+{
+    background: #c6dbfc;
+    color: #369;
+}
+.bottomcopy
+{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    height: 30px;
+    color: #999;
+    z-index:1000;
+    font-family: 微软雅黑 Light;
+}
+.bottomlogo
+{
+    position: absolute;
+    bottom: 80px;
+    left:22%;
+    z-index:100;
+}
+
+/*首页更改*/
+.fir-btm
+{
+    position:absolute;
+    width:100%;
+    min-width:1380px;
+    bottom:0;
+    padding-left:21.1%;
+    z-index:10;
+    background-color:#ddd;
+}
+.indexbtmbg
+{
+    width:100%;
+    position:absolute;
+    bottom:0;
+    z-index:1;
+}
+.fir-btm div
+{
+    width:14.5%;
+    float:left;
+}
+.fir-btm img{
+    width:100%;
+}
+.fir-btm div:hover
+{
+    background-color:#d0d0d0;
+
+}
+.six-bg
+{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    z-index:1;
+}
+/* CSS reset@ */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td, a
+{
+    padding: 0;
+    margin: 0;
+}
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+del, ins
+{
+    text-decoration: none;
+}
+fieldset, img
+{
+    border: 0;
+}
+input, select
+{
+    font: 12px/1.6 Arial, "Microsoft YaHei";
+    color: #333;
+}
+input, select, img
+{
+    vertical-align: middle;
+}
+input, select
+{
+    outline: none;
+}
+select
+{
+    height: 22px;
+    line-height: 18px;
+    padding: 2px;
+}
+ul, ol
+{
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 14px;
+    font-weight: 400;
+}
+address, cite, dfn, em, var
+{
+    font-style: normal;
+}
+legend
+{
+    display: none;
+}
+td
+{
+    font-size: 14px;
+    line-height: 140%;
+}
+label
+{
+    margin: 0 0 0 5px;
+    cursor: pointer;
+}
+input::-moz-focus-inner, button::-moz-focus-inner
+{
+    border: 0;
+    padding: 0;
+}
+.left
+{
+    float: left;
+}
+.right
+{
+    float: right;
+}
+.mt10
+{
+    margin-top: 10px;
+}
+.mt15
+{
+    margin-top: 15px;
+}
+.mt20
+{
+    margin-top: 20px;
+}
+a
+{
+    color: #0c73b7;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #ff6a00;
+    text-decoration: none;
+}
+.txthide
+{
+    text-indent: -999em;
+    overflow: hidden;
+    line-height: 0;
+    font-size: 0;
+}
+.clearfix:after
+{
+    content: "";
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+.clearfix
+{
+    zoom: 1;
+}
+.clear
+{
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
